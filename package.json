@@ -1,0 +1,13 @@
+{
+  "name": "it3040-assignment-1",
+  "version": "1.0.0",
+  "description": "Singlish to Sinhala Transliteration Testing",
+  "scripts": {
+    "test": "npx playwright test && npx playwright show-report",
+    "report": "npx playwright show-report",
+    "test:report": "npx playwright test --project=chromium && npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
